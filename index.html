@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.CSS">
+    <title>Nutricionista</title>
+</head>
+<body>
+    <header>
+        <div class="logonutri">
+            <img src="assets/logonutri.PNG">
+        </div>
+        <div class="agendamento">
+            <a href="#">Agende sua consulta</a>
+        </div>
+    </header>
+    
+    <section class="obj">
+        <div class="objetivo">
+            <h1>Saúde <span>não precisa</span> ser </h1>
+            <h2><span>sinônimo</span> de sofrimento</h2>
+        </div>
+    </section>
+    
+    <section class="flip">
+        <div class="banner">
+            <div class="slides">
+                <img src="https://gestaoderestaurantes.com.br/blog/wp-content/uploads/2020/05/05-05-2020-A-1024x684.png">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfIyhjo9QVRKWW68WZE3LYfWkxqptPvsbPQ&s">
+                <img src="https://crn8.org.br/wp-content/uploads/2023/01/frutos-saudaveis-frescos-com-fita-metrica-na-mesa-da-nutricionista_23-2147882143.webp">
+                <img src="https://nutrilifemacae.com.br/wp-content/uploads/2023/09/171.jpg">
+            </div>
+        </div>    
+    </section>
+
+    <section class="catalogo">
+        <div class="catalogo-card">
+            <img src="https://blog.ingredientesonline.com.br/wp-content/uploads/2020/07/produtos-naturais-goiania_capa-e1590413053661-1-1.jpg" alt="produtos">
+            <h3>Produtos</h3>
+            <p>conheça nossos produtos</p>
+            <button>Saiba mais</button>
+        </div>
+        <div class="catalogo-card">
+            <img src="https://www.fsp.usp.br/sustentarea/wp-content/uploads/2021/10/Receitas-Capa-1-1024x1024.png" alt="receitas">
+            <h3>Carro Audi E-Tron</h3>
+            <p>Descrição: Inteligente e Seguro</p>
+            <button>Saiba mais</button>
+        </div>
+        <div class="catalogo-card">
+            <img src="https://brdanutricao.com.br/wp-content/uploads/2023/02/Nutricionista-pode-pedir-exames-laboratoriais.jpg" alt="exames">
+            <h3>Exames</h3>
+            <p>Agende sua consulta</p>
+            <button>Saiba mais</button>
+        </div>
+        <div class="catalogo-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YTOU-i1xRmi_enyzTYrTYfV_m6ptZxW-Hw&s" alt="calculadora">
+            <h3>Calculadora</h3>
+            <p>Tenha acesso ao seu ídice corporal</p>
+            <button>Saiba mais</button>
+        </div>
+    </section>
+    
+    <section>
+            <div class="video">
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/QVAmbJrlyvk?si=e0aclEGlAmumt_Hu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="trabalho">
+                <h1> - Conheça nosso trabalho - </h1>
+            </div>
+    </section>
+    
+    <section id="formulario-contato">
+        <div class="form">
+            <form>
+                <label><h2>Entre em Contato</h2></label>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="img-form">
+                <img src="https://images.educamaisbrasil.com.br/content/noticias/dia-do-nutricionista-a-importancia-do-profissional-para-a-promocao-da-saude_g.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="calculadora-imc" style="padding: 20px;">
+        <h2>Calculadora de IMC</h2>
+        <form id="imc-form" style="display: flex; flex-direction: column; gap: 10px;">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" required>
+    
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" name="altura" step="0.01" required>
+    
+            <button type="submit">Calcular IMC</button>
+        </form>
+        <div id="resultado" style="margin-top: 20px; font-weight: bold;"></div>
+    </section>
+
+    <footer style="padding: 40px 50px; background-color: rgb(55, 158, 55); color: #fff; margin-top: 20px;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+            <!-- Coluna 1: Menu -->
+            <div style="flex: 1; min-width: 200px;">
+                <h3>Menu</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Carros</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Carros Usados</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Promoções</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Fale Conosco</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Localização</a></li>
+                </ul>
+            </div>
+    
+            <!-- Coluna 2: Políticas -->
+            <div style="flex: 1; min-width: 200px;">
+                <h3>Políticas</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Política de privacidade</a></li>
+                    <li><a href="#" style="color: #fff; text-decoration: none;">Termos de Serviço</a></li>
+                </ul>
+            </div>
+    
+            <!-- Coluna 3: Formulário Newsletter -->
+            <div style="flex: 1; min-width: 200px;">
+                <h3>Receba nossas Novidades</h3>
+                <form action="#" method="post" style="display: flex; flex-direction: column; gap: 10px;">
+                    <input type="email" name="email" placeholder="Seu email"
+                        style="padding: 10px; border-radius: 8px; border: none;">
+                    <button type="submit"
+                        style="padding: 10px; background-color: #4f45da; color: white; border: none; border-radius: 20px; cursor: pointer;">Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px; text-align: center;">
+            <p>&copy; 2024 Site Nutricional. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>
